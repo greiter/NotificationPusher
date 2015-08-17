@@ -97,7 +97,8 @@ class Gcm extends BaseAdapter
 	            $this->httpClient = new \Zend\Http\Client(
 	                null, array(
 	                    'adapter' => 'Zend\Http\Client\Adapter\Socket',
-	                    'sslverifypeer' => false
+	                    'sslverifypeer' => false,
+	                    'ssltransport' => 'tls'
 	                )
 	            );
 	            
