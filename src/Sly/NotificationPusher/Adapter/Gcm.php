@@ -98,7 +98,7 @@ class Gcm extends BaseAdapter
 	                null, array(
 	                    'adapter' => 'Zend\Http\Client\Adapter\Socket',
 	                    'sslverifypeer' => false,
-	                    'ssltransport' => 'tls'
+	                   // 'ssltransport' => 'tls'
 	                )
 	            );
 	            
